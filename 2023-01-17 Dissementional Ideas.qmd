@@ -12,9 +12,9 @@ editor: visual
 
 ## Overview {.smaller}
 
-- Intro
-- Examples of potential content
-- Potential next steps
+- Intro: why is digital content important?
+- SALURBAL digital content infrastructure
+- Examples digital content for SALURBAL 1/2
 - Context within SALURBAL II aims
 
 ## Intro {.smaller}
@@ -24,20 +24,53 @@ Thinking web first and why its important
 ::: incremental
 -   Traditional academia, peer review journals are ideas are exchanged but for non-academics the internet is how ideas are exchanged.
 -   To increase impact we have to be able to share our ideas and data via the internet.
--   What could SALURBAL II digital content look like?
 -   How do we do this?
+-   What could SALURBAL II digital content look like?
 :::
 
-## Digital Content: industry trends {.smaller .scrollable}
 
-Data driven story telling has seen a recent boom. Examples include:
+## How do we do this? {.smaller .scrollable}
 
-::: columns
--   New York Times Graphics
--   Bloomberg Graphics
--   Reuters Graphics
+The SALURBAL project has a few unique selling points:
 
-::: {.column width="100%"}
+- comprehensive harmonized multi-national data assets
+- networks across latin america
+
+. . .
+
+Increasing the the online presence of these two selling points would greatly increase our potential impact. To do this there are two main steps:
+
+. . .
+
+-   **Step 1**: Basic Infrastructure
+    - FAIR/machine-actionable renovations of existing datasets
+    - Strict standards for new dataset/codebook formats
+    - Set up online interface for data and digital content
+-   **Step 2** Digital content (all hosted on SALURBAL portal):
+    - Bigger initiatives:
+      - Centralized at SALURBALs
+      - Ideation -> Design -> Engineering
+    - Analyst/group level content:
+      - Decentralized analyst/group level content 
+      - Generated with tools familiar to group Quarto, Shiny, ArcGIS .. ETC
+
+## Step 1: SALURBAL infrastructure {.smaller .scrollable}
+
+
+Over the past year we have been working on the [SALURBAL data platform](https://data.lacurbanhealth.org/){preview-link="true"}.
+
+- Renovating our data to be machine-actionable
+- Setting up a online data portal 
+  - Primary priority: [open access data](https://data.lacurbanhealth.org/data/catalog){preview-link="true"}
+  - Secondary priority: [digital content](https://data.lacurbanhealth.org/tools){preview-link="true"} 
+
+Moving into SALURBAL 2, we hope to leverage our infrastructure to generate much more digital content.
+
+ 
+## Step 2: Digital Content  {.smaller .scrollable}
+
+Data driven story telling has seen a recent boom. 
+ 
 ::: panel-tabset
 
 ### NYT
@@ -48,23 +81,27 @@ Data driven story telling has seen a recent boom. Examples include:
 
 ![](images/image-1514986386.png)
 
-Content for `Tab B`
 
 ### Reuters
 
 ![](images/image-489945133.png)
 :::
-:::
-:::
+ 
 
-## Ideas for SALURBAL II {.smaller}
+## Step 2: Digital Content {.smaller}
 
+Below we list a few of the trends in digital content that we have/will adapted for SALURBAL.
+
+-   City Profiles + Automated reports 
 -   Long form visualization
     -   for telling stories
     -   for explaining models
 -   Interactive blogs
--   City Profiles + Automated Reports
 -   Dashboards
+
+## City Profiles + Automated Reports {.smaller}
+
+![](images/image-83481932.png)
 
 ## Long form visualization (story) {.smaller}
 
@@ -84,9 +121,6 @@ Content for `Tab B`
 
 [Preview here](https://pudding.cool/projects/flooding/visuals/){preview-link="true"}
 
-## City Profiles {.smaller}
-
-![](images/image-83481932.png)
 
 ## Dashboards {.smaller}
 
@@ -95,15 +129,17 @@ Content for `Tab B`
 [Preview here](https://ambitiontoaction.net/scan_tool/){preview-link="true"}
 
 
-## How do we do this? {.smaller}
+## Fitting into SALURBAL2  {.smaller .scrollable}
 
-To build web first content, SALURBAL needs two things
-
--   FAIR/machine-actionable data infrastructure
--   Workflows for generating content:
-    -   SALURBAL data platform for a centralized location to host or route to digital resources
-    -   Ideation to product pipeline: Idea -\> Design -\> Engineering
-    -   decentralized analyst level content generation and hosting via statci websites
-    -   Adopt existing open-source, multi-lingual web-first tools such as Quarto and Shiny.
-
-
+- Aim 1 (data resource + "epi-ish analysis")
+  - Data repository (continuing FAIR data infrastructure, incorporate data, etc.)
+  - Long form visualizations of results or methods
+  - Interactive blogs of results
+- Aim 2 (impact of mitigation/adaptation policies)
+  - Long form visualizations of case studies
+  - Dashboards with HIA results (ability to switch levers)
+- Aim 3 (dissemination/engagement)
+  - "All of the above" but much more targeted
+  - Automated reports ~ City profiles
+- Aim 4 (capacity building & project governance)
+  - ? (Workshops on visualization/programming? Engineering capacity building?)
